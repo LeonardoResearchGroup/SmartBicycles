@@ -11,7 +11,7 @@ Para implementar la solución en un **simulador de escritorio** debe utilizar lo
 - Una applicacion *bike_prototype_v3_32bit.app*: Es una mundo en 3D con al representación de calles urbanas por las que rueda una bicicleta controlada por un módulo de control.
 - Un servidor *bike_serial_to_...* en tres versiones: *TCP*, *JOYSTIC*, *KEYBOARD*. Escoja la versión a correr dependiendo si está utilizando una bicicleta estática, un timón con motor de estimulos hápticos, o simplemente un teclado.
 
-# Descrición del funcionamiento del código del servidor *simulador de escritorio*
+### Descrición del funcionamiento del código del servidor *simulador de escritorio*
 
 Este prototipo esta constituido de 3 compunentes: i) una interfaz fisica que va instalada en la bicileta
 ii) un servidor y iii) una aplicación que simula el desplazamiento de una bicicleta en la ciudad. 
@@ -31,4 +31,6 @@ que esta dentro de la ola verde. Esos datos los recibe el servidor y se los envi
 bluetooth. Dependiendo del valor arduino enciende los leds rojo para desacelerar, verde para acelerar o azul
 para indicar que esta en la velocidad correcta. Con base en la misma señal hace girar el motor hacia adelante
 cuando la señal es positiva y hacia atrás cuando es negativa.
+
+Ma información y detalles técnicos disponibles en: http://www.smartartifact.com/smart-bicycles/
 
