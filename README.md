@@ -32,5 +32,5 @@ bluetooth. Dependiendo del valor arduino enciende los leds rojo para desacelerar
 para indicar que esta en la velocidad correcta. Con base en la misma señal hace girar el motor hacia adelante
 cuando la señal es positiva y hacia atrás cuando es negativa.
 
-Ma información y detalles técnicos disponibles en: http://www.smartartifact.com/smart-bicycles/
+Mas información y detalles técnicos disponibles en: http://www.smartartifact.com/smart-bicycles/
 
